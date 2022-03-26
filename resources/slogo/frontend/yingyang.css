@@ -1,0 +1,49 @@
+.right-half {
+  -fx-background-color: #454545;
+  -fx-border-color: #c4c4c4;
+  -fx-border-width: 0px;
+}
+
+.left-half {
+  -fx-background-color: #c4c4c4;
+  -fx-border-color: #454545;
+}
+
+.label{
+  -fx-text-fill: #454545;
+  -fx-font-family: "Avenir";
+  -fx-font-weight: regular;
+  -fx-font-size: 12px;
+}
+
+.h1 {
+  -fx-font-family: "Avenir Next";
+  -fx-font-size: 21px;
+  -fx-font-weight: 500;
+}
+
+.h2 {
+  -fx-font-family: "Avenir Next";
+  -fx-font-weight: 500;
+}
+
+.button {
+  -fx-font-family: "Avenir";
+  -fx-border: none;
+  -fx-font-size: 12px;
+  -fx-padding: 3 6 3 6
+}
+
+.dark-text{
+  -fx-text-fill: #454545;
+}
+
+.light-text{
+  -fx-text-fill: #eeeeee;
+}
+.pane{
+  -fx-background-color: #eeeeee;
+  -fx-padding: 5px;
+  -fx-background-radius: 3px;
+  -fx-border-width: 1px;
+}
