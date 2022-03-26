@@ -1,0 +1,19 @@
+package slogo.model.commands.math_operations;
+
+import java.util.List;
+import slogo.model.SingleTurtle;
+import slogo.model.commands.Command;
+
+public class Random extends Command {
+  List<Object> myParameters;
+
+  public Random(List<Object>parameters){
+    myParameters = parameters;
+  }
+
+  @Override
+  public double getReturnValue(SingleTurtle singleTurtle){
+    List<Double> paramValues = evaluateParameters(myParameters, singleTurtle);
+    return Math.round(Math.random()*paramValues.get(0));
+  }
+}
