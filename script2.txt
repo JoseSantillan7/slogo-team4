@@ -1,0 +1,6 @@
+tell [ 1 ] fd 100 left 90 fd 100
+left 60 fd 115
+tell [ 2 ] bk 100 left 90 fd 100
+right 60 fd 115
+tell [ 3 ] fd 100 left 90 fd 100 left 90 fd 200
+tell [ 4 ] left 90 fd 30 right 90 fd 10 right 90 fd 30

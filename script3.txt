@@ -1,0 +1,4 @@
+tell [ 1 ] fd ( sum 50 50 50 )
+tell [ 2 ] fd ( sum 50 50 )
+tell [ 3 ] fd ( product 5 5 )
+tell [ 4 ] left ( quotient 100 0.001 )

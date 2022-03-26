@@ -1,0 +1,2 @@
+tell [ 1 ] repeat 4 [ fd 50 lt 90 ]
+tell [ 2 ] bk 50

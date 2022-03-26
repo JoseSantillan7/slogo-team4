@@ -1,0 +1,3 @@
+tell [ 1 ]  repeat 4 [ fd 50 right 90 ]
+tell [ 2 ] bk 50 left 60 fd 50 right 120 fd 50
+tell [ 3 ] left 90 fd 100 right 180 fd 200
